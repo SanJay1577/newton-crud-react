@@ -1,0 +1,93 @@
+*{
+  padding:0px; 
+  margin:0px;
+  background-color: #fff;
+}
+.card-component{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem; 
+  background-color: #ccc;
+}
+
+p{
+  text-align: center;
+  background-color: inherit;
+  font-size: large; 
+}
+
+button{
+
+  width:75px;
+  height: 30px;
+  border: none;
+  margin:2px;
+}
+
+img{
+  width:150px; 
+  height: 200px;
+  object-fit: cover;
+}
+
+input {
+  padding:10px;
+  
+}
+
+
+.main-division{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:50px;
+}
+
+.main-segmnet{
+  width:100%;
+  height:75%;
+  text-align: center;
+}
+.childred-segment{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  gap:2rem; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-container{
+  border: 1px solid black;
+  padding: 10px;
+  margin:5px;
+}
+
+.edit-btn{
+  background-color: rgb(91, 91, 206);
+}
+
+.delete-btn{
+  background-color: rgb(185, 47, 47);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn{
+  background-color: rgb(122, 143, 102);
+
+}
